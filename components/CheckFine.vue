@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+  import { ref } from "vue";
+
   const isOpen = ref(false);
   const isSend = ref(false);
   const payload = ref({
